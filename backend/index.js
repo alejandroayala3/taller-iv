@@ -13,7 +13,7 @@ app.get('/api/health', (req, res) => {
     //endpint info de integrantes
     app.get('/api/info', (req, res) => {
         res.json({
-            mensaje: 'El api esta funcionando correctamente',
+            message: 'El api esta funcionando correctamente',
             integrantes: [
                 {nombre: 'Alejandro Ayala', edad: 19, carrera: 'Ingeniería Informática', materiasAprobadas: 10},
                 {nombre: 'Diego Guzman', edad: 21, carrera: 'Ingeniería Informática', materiasAprobadas: 13},

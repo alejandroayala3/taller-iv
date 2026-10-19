@@ -9,7 +9,7 @@ function App() {
   useEffect(() => {
     fetch('http://localhost:3000/api/health')
       .then((res) => res.json())
-      .then((data) => setHealth(data.mensaje))
+      .then((data) => setHealth(data.message))
     fetch('http://localhost:3000/api/info')
       .then((res) => res.json())
       .then((data) => setInfo(data))
